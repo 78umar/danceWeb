@@ -1,0 +1,10 @@
+touch .gitignore
+git congig --global user.name 78umar
+git congig --global user.email umarriaz525@gmail.com
+git init
+git add.
+git commit -m "initial commit"
+git status # just to seessh-keygen -t ed25519 -C "umarriaz525@.com"
+tail <path to id_rsa.pub> # add this key to your github account
+git remote add origin <ssh url.git>
+git push origin master
