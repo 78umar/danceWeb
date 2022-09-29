@@ -1,0 +1,41 @@
+doctype html
+html
+  head
+    title Umar Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+           div#logo
+               img(src="/static/logo.png") 
+               | HDA
+           li #[a(href="/") Home ]
+           li #[a(href="/") Class Info ]
+           li #[a(href="/") Contact us ]
+           li #[a(href="/") About us]
+
+    section#introsection.bg 
+              div Welcome To Umar's Dance Academy 
+              div.small  Eat Sleep Dance Repeate 
+
+
+    section#mission 
+       h2 Our Mission
+       div.card 
+         div.card-img
+            img(src="/static/c1.jpg")
+       div.card 
+         div.card-img
+            img(src="/static/c2.png")
+       div.card 
+         div.card-img
+            img(src="/static/c3.png")
+
+    section#sponsers 
+       h2   Our Sponsers 
+
+    section#footer 
+         | Copyright © 2021 UmarDanceAcademy.com All right | reserved          
+    script
+      include ../static/index.js

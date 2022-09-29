@@ -1,0 +1,29 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+   style
+     include ../static/style.css  
+
+block content
+    section#introsection.bg 
+              div Welcome To Umar's Dance Academy 
+              div.small  Eat Sleep Dance Repeate 
+
+
+    section#mission 
+       h2 Our Mission
+       div.card 
+         div.card-img
+            img(src="/static/c1.jpg")
+       div.card 
+         div.card-img
+            img(src="/static/c2.png")
+       div.card 
+         div.card-img
+            img(src="/static/c3.png")
+
+    section#sponsers 
+       h2   Our Sponsers      
